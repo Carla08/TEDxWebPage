@@ -44,16 +44,16 @@ strong {
     font-weight: bold;
 }
 
-p {
+p,.framework {
     padding: 10px;
     margin: 0 5%;
     text-align: justify;
-    text-indent: 25px;
-    border: 2px solid #E62b1E;
+    text-indent: 1.5rem;
+    border: .2rem solid #E62b1E;
 }
 li{
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 } 
 /*Inputs*/
 input[type="submit"]{
@@ -71,16 +71,25 @@ input[type="submit"]{
 /*Voluntarios*/
 #voluntarios {
     background-image: url("../images/");
-
-
-<!-- Contacto
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+}
+#backgroundImageVoluntarios {
+    background-image: url(../images/);
+    background-size: cover;  
+}
 form{
     margin-bottom: 1rem;
->>>>>>> 1a337da092976776f60cfd20d3c1b1a7cc0f39f0
 }
 /*footer*/
 footer {
     min-width: 100%;
     text-align: center;
+}
+
+
+#facebook {
+    background-image: url(../images/fb.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
 }
