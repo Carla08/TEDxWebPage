@@ -22,6 +22,11 @@ body {
     min-height: 50vh;
     text-align: center;
 }
+.v-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 /*Titles and text*/
 /* color: #E62b1E; Renasci*/
 
@@ -53,7 +58,7 @@ p,.framework {
 }
 li{
     list-style: none;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
 } 
 /*Inputs*/
 input[type="submit"]{
