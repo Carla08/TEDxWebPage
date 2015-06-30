@@ -30,6 +30,13 @@ h1 {
    font-weight: 500;
 }
 
+h2 {
+    color: #E62b1E;
+    font-weight: 600;
+}
+strong {
+    font-size: 1.5em;
+}
 
 p {
     padding: 10px;
@@ -37,6 +44,11 @@ p {
     text-align: justify;
     text-indent: 25px;
     border: 2px solid #E62b1E;
+}
+/*Inputs*/
+input[type="submit"]{
+    background-color: #E62b1e;
+    border:none;
 }
 /*INICIO*/
 #inicio {
