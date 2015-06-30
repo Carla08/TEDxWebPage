@@ -20,6 +20,7 @@ body {
 }
 .half-height {
     min-height: 50vh;
+    text-align: center;
 }
 /*Titles and text*/
 /* color: #E62b1E; Renasci*/
@@ -47,6 +48,8 @@ p {
 input[type="submit"]{
     background-color: #E62b1e;
     border:none;
+    color: #FFF;
+    margin-top: 5%;
 }
 /*INICIO*/
 #inicio {
