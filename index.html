@@ -20,19 +20,41 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/responsive-nav.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/responsive-nav.js"></script>
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
 <body>
+    
 
   <!--INICIO-->
-    
-   <div class="container half-height" id = "inicio"></div>
-  <div class="container half-height v-center">      
+    <span class="anchor" id="home"></span>
+    <div class="container half-height " id = "inicio">
+        <div class="row">
+            <div class="twelve columns top bar">
+            
+            <div class="four columns" >
+                <div id="logo"></div>
+            </div>
+            <div class="eight columns">
+                <nav class="nav-collapse">
+                  <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#conferencistas">Conferencistas</a></li>
+                    <li><a href="#voluntarios">Voluntarios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                  </ul>
+                </nav>
+            </div>
+            </div>
+        </div>
+    </div>
+  <div class="container half-height v-center" >
          <h1>¿Qué es TED<sup>x</sup>?</h1>
       <p>En el mismo espíritu de difundir ideas TED ha creado un programa llamado TED<sup>x</sup>.TED<sup>x</sup> es un programa de eventos locales, organizados de forma independiente que reúnen a una audiencia en una experiencia similar a TED. En TED<sup>x</sup>AvDivDelNorte combinamis videos de charlas de TED y conferencistas en vivo para disparar una conversación y conexción profunda entre los asistentes. TED da lineamientos generales para el programa TED<sup>x</sup> pero cada TED<sup>x</sup> individual es oirganizado de manera autónoma </p>
   </div>
@@ -53,7 +75,8 @@
     </div>
   </div>
   <!--conferencistas-->
-  <div class="container half-height v-center">
+    <span class="anchor" id="conferencistas"></span>
+  <div class="container half-height v-center" >
     <div class="row v-center">
       <div class="twelve columns v-center">
         <h1>Conferencistas</h1>
@@ -66,6 +89,7 @@
     </div>
   </div>
   <!--voluntarios-->
+    <span class="anchor" id="voluntarios"></span>
   <div class="container half-height v-center" id="backgroundImageVoluntarios">
     <div class="row">
       <div class="twelve columns">
@@ -91,11 +115,12 @@
     </div>
   </div>
   <!--contacto-->
+    <span class="anchor" id="contacto"></span>
   <div class="container half-height v-center">
     <div class="row">
       <div class="twelve columns">
         <h1>Contacto</h1>
-        <form name="contactform" method="post" action="send_form_email.php">
+        <form name="contactform" method="post" action="php/send_form_email.php">
             <div class="row">
                 <div class="six columns">
                     <label for="email">Correo Electronico</label>
@@ -103,7 +128,7 @@
                 </div>
                 <div class="six columns">
                     <label for="name">Nombre</label>
-                    <input class="u-full-width" type="email" placeholder="Nombre" id="emailName">
+                    <input class="u-full-width" type="text" placeholder="Nombre" id="emailName">
                 </div>
              </div>
                 <label for="message">Mensaje</label>
@@ -121,5 +146,10 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
+    <script>
+        var nav = responsiveNav(".nav-collapse",{
+                                closeOnNavClick:true
+                                });
+    </script>
 </body>
 </html>

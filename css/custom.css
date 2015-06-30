@@ -6,7 +6,25 @@ body {
     font-family: 'Helvetica', 'sans-serif';
     color: #555;
 }
+
+a{
+    text-decoration: none;
+}
+.anchor{
+   display:block;
+   height:9rem; /* this is the height of your header */
+   margin-top:-9rem; /* this is again negative value of the height of your header */
+   visibility:hidden;
+}
 /*Sizers and containers**/
+#logo{
+    background: url(../images/TEDxLogo.jpg) no-repeat;
+    background-size:contain;
+    width: 20rem;
+    height: 9rem;
+    display: inline-block;
+    float: left;
+}
 .container {
     margin: 0;
     padding: 0;
@@ -30,6 +48,34 @@ body {
 /*Titles and text*/
 /* color: #E62b1E; Renasci*/
 
+/*Navigation Menu*/
+
+.nav-collapse li,
+.nav-collapse {
+    display: inline;
+    margin:1em;
+    padding-bottom: .25rem;
+}
+.js .nav-collapse{
+}
+.nav-collapse{
+    margin-top: 3rem;
+}
+.top{
+    position: fixed;
+}
+
+.bar{
+    background-color: white;
+    z-index: 2;
+    font-size: 2rem;
+}
+nav a:hover,
+nav a:active
+{
+    color: #DA291C;
+    border-bottom: 1px solid #DA291C;
+}
 h1 {
    color: #000;
    margin-top: 10px;
@@ -98,3 +144,5 @@ footer {
     height: 50px;
     width: 50px;
 }
+
+
