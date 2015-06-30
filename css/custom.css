@@ -59,6 +59,11 @@ input[type="submit"]{
     background-size: cover;
 }
 
+<!-- Contacto
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+form{
+    margin-bottom: 1rem;
+}
 /*footer*/
 footer {
     min-width: 100%;
