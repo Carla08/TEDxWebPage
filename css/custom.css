@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Helvetica', 'sans-serif';
-    color: #555;
+    color: #333;
 }
 /*Sizers and containers**/
 .container {
@@ -33,6 +33,7 @@ body {
 h1 {
    color: #000;
    margin-top: 10px;
+    font-size: 2.5em;
  
 }
 
@@ -49,7 +50,7 @@ strong {
     font-weight: bold;
 }
 
-p,.framework {
+p {
     padding: 10px;
     margin: 0 5%;
     text-align: justify;
@@ -75,12 +76,20 @@ input[type="submit"]{
 
 /*Voluntarios*/
 #voluntarios {
-    background-image: url("../images/");
+    background-image:url("../images/quintagemeros.jpg");
+    background-size: cover;
 }
-#backgroundImageVoluntarios {
-    background-image: url(../images/);
-    background-size: cover;  
+/*Asiste*/
+#asiste {
+    background-image: url("../images/catedralchi.jpg");
+    background-size: cover;
 }
+/*contacto*/
+#contacto {
+    background-image: url("../images/glorietafcovilla.jpg");
+    background-size: cover;
+}
+
 form{
     margin-bottom: 1rem;
 }
