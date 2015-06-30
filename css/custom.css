@@ -1,0 +1,19 @@
+/*General*/
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Helvetica', 'sans-serif';
+}
+
+.full-height {
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    min-width: 100%;
+    text-align: center;
+}
