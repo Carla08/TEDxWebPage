@@ -4,12 +4,42 @@
 }
 body {
     font-family: 'Helvetica', 'sans-serif';
+    color: #555;
 }
-
+/*Sizers and containers**/
+.container {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
 .full-height {
     min-height: 100vh;
     padding: 50px;
     text-align: center;
+    padding: 0;
+}
+.half-height {
+    min-height: 50vh;
+}
+/*Titles and text*/
+/* color: #E62b1E; Renasci*/
+
+h1 {
+   color: #000;
+   margin-top: 10px;
+   font-weight: 500;
+}
+p {
+    padding: 10px;
+    margin: 0 5%;
+    text-align: justify;
+    text-indent: 25px;
+    border: 2px solid #E62b1E;
+}
+/*INICIO*/
+#inicio {
+    background-image: url("../images/chihuahua-puerta.jpg");
+    background-size: cover;
 }
 
 /*footer*/
