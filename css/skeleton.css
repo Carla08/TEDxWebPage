@@ -218,8 +218,8 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #900A00;
+  color: #333;
+  background-color: #e62b1e;
   border-color: #e62b1e; }
 
 
@@ -354,7 +354,12 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem; }
+  margin-bottom: 2.5rem; 
+ }
+form{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 /* Utilities
