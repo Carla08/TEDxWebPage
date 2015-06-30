@@ -93,18 +93,18 @@
     <div class="row">
       <div class="twelve columns">
         <h4>Contacto</h4>
-        <form>
+        <form name="contactform" method="post" action="send_form_email.php">
             <div class="row">
                 <div class="six columns">
-                    <label for="emailInput">Correo Electronico</label>
+                    <label for="email">Correo Electronico</label>
                     <input class="u-full-width" type="email" placeholder="ejemplo@mail.com" id="emailInput">
                 </div>
                 <div class="six columns">
-                    <label for="emailName">Nombre</label>
+                    <label for="name">Nombre</label>
                     <input class="u-full-width" type="email" placeholder="Nombre" id="emailName">
                 </div>
              </div>
-                <label for="emailMessage">Mensaje</label>
+                <label for="message">Mensaje</label>
                 <textarea class="u-full-width" placeholder="Hola equipo TEDxAvDivDelNorte" id="emailMessage"></textarea>
                 <input class="button-primary" type="submit" value="Enviar">
        </form>
@@ -117,5 +117,6 @@
   </footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
 </body>
 </html>
