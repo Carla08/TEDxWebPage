@@ -1,5 +1,4 @@
-@media screen 
-    and (min-device-width: 1200px){
+@media screen (min-device-width: 1200px){
         .container {
             padding: 0 20%;
         }      
