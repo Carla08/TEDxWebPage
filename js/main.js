@@ -47,10 +47,14 @@ $(document).ready(function() {
  
 });
 
-$('#submit').click(function()
+$('#submit').click(function(event)
 {
+    event.preventDefault();
+    var email=$("#emailInput").val();
+    var name=$("#emailName").val();
+    var message=$("#emailMessage").val();
     $.ajax({
-        url: "php/send_form_email.php",
+        url: "/php/send_form_email.php",
         type:'POST',
         data:
         {
@@ -61,6 +65,10 @@ $('#submit').click(function()
         success: function(msg)
         {
             alert('Email Sent');
-        }               
+        },
+        errro:function(msg)
+        {
+            alert("Email not sent");
+        }
     });
 });
