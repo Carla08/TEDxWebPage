@@ -18,8 +18,7 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/responsive-nav.js"></script>
-  <script src="js/main.js"></script>
+  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
  <link rel="stylesheet" href="css/responsive-nav.css">
@@ -122,7 +121,7 @@
     <div class="row">
       <div class="twelve columns">
         <h1>Contacto</h1>
-        <form name="contactform" method="post" action="php/send_form_email.php">
+        <form name="contactform">
             <div class="row">
                 <div class="six columns">
                     <label for="email">Correo Electrónico</label>
@@ -135,7 +134,7 @@
              </div>
                 <label for="message">Mensaje</label>
                 <textarea class="u-full-width" placeholder="Hola equipo TEDxAvDivDelNorte" id="emailMessage"></textarea>
-                <input class="button-primary" type="submit" value="Enviar"> 
+                <input class="button-primary" id="submit" type="submit" value="Enviar"> 
        </form>
           <a href="https://www.facebook.com/events/467066166781578/" target="_blank" id="facebook" class="row"></a>
       </div>
@@ -147,12 +146,15 @@
   </footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/responsive-nav.js"></script>
+    <script src="js/main.js"></script>
     <script>
         var nav = responsiveNav(".nav-collapse",{
                                 closeOnNavClick:true,
                                 label:""
                                 });
     </script>
+    
 </body>
 </html>
