@@ -12,18 +12,25 @@ a{
 }
 .anchor{
    display:block;
-   height:9rem; /* this is the height of your header */
+   height:8.9rem; /* this is the height of your header */
    margin-top:-9rem; /* this is again negative value of the height of your header */
    visibility:hidden;
+}
+.menu {
+    float: right;
+    max-width: 20vw;
+    display: inline-block;
+    margin: 0;
 }
 /*Sizers and containers**/
 #logo{
     background: url(../images/TEDxLogo.jpg) no-repeat;
     background-size:contain;
-    width: 20rem;
+    width: 19rem;
     height: 9rem;
     display: inline-block;
     float: left;
+    margin: 0;
 }
 .container {
     margin: 0;

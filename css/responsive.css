@@ -5,5 +5,13 @@
         h1 {
             font-size: 3.5em;
         } 
+        .menu {
+        min-width: 80vw;
     }
+    }
+@media (min-width:680px) {
+         .menu {
+        min-width: 70vw;
+    }
+}
 
