@@ -70,6 +70,9 @@ a{
     background-color: white;
     z-index: 2;
     font-size: 2rem;
+     margin: 0;
+    padding: 0;
+    min-width: 100%;
 }
 nav a:hover,
 nav a:active
