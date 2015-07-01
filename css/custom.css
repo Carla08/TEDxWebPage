@@ -123,6 +123,12 @@ input[type="submit"]{
     background-image: url("../images/chihuahua-puerta.jpg");
     background-size: cover;
 }
+#scrolldown {
+    display: block;
+    max-width: 50px;
+    margin: auto;
+    margin-top: 45vh;
+}
 
 /*Voluntarios*/
 #voluntarios {
