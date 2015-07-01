@@ -41,12 +41,12 @@
     height: 35px;
     background-repeat: no-repeat;
     float: right;
-    margin-right: 5rem;
+    margin-right: 2.5rem;
     margin-top: 2.5rem;
 }
 
 
-@media screen and (min-width: 45em) {
+@media screen and (min-width: 50em) {
   .js .nav-collapse {
     position: relative;
   }
@@ -55,6 +55,8 @@
   }
   .nav-toggle {
     display: none;
+
+    
   }
     
 }
