@@ -16,12 +16,6 @@ a{
    margin-top:-9rem; /* this is again negative value of the height of your header */
    visibility:hidden;
 }
-.menu {
-    float: right;
-    max-width: 20vw;
-    display: inline-block;
-    margin: 0;
-}
 /*Sizers and containers**/
 #logo{
     background: url(../images/TEDxLogo.jpg) no-repeat;
@@ -151,8 +145,6 @@ footer {
     min-width: 100%;
     text-align: center;
 }
-
-
 #facebook {
     background-image: url(../images/fb.png);
     background-repeat: no-repeat;
