@@ -6,8 +6,8 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    //$email_to = "contacto@tedxavdivdelnorte.com";
-    $email_to = "mario.acc.15@gmail.com";
+    $email_to = "contacto@tedxavdivdelnorte.com";
+    //$email_to = "mario.acc.15@gmail.com";
  
     $email_subject = "Informacion para TEDx:";
  
@@ -39,7 +39,7 @@ if(isset($_POST['email'])) {
  
         !isset($_POST['email']) ||
  
-        !isset($_POST['message']) {
+        !isset($_POST['message'])) {
  
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
  
