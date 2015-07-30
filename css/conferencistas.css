@@ -1,0 +1,57 @@
+.conferencistas img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+}
+.conferencistas h1{
+    text-align: center;
+}
+
+.conferencistas p{
+    border: none;
+    margin-bottom: 0
+}
+
+.informacion h5{
+    text-align: center;
+}
+
+.conferencistas .row:not(:first-child){
+    margin-top: 2.5%;   
+}
+
+.blockquote {
+    font-size: 1.4rem;
+
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+    font-style: italic;
+}
+.blockquote:before {
+  color: #DA291C;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.blockquote:after{
+    color: #DA291C;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+.blockquote p {
+  display: inline;
+}
