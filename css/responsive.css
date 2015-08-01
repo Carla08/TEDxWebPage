@@ -15,5 +15,10 @@
         display: inline-block;
         margin-top: .2rem;   
     }
+    .conferencistas .row:not(:first-child){
+    margin-top: 15%;   
+    }
+    
+    
 }
 
