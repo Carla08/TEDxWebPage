@@ -19,6 +19,10 @@
     margin-top: 15%;   
     }
     
+    .conferencistas .row:last-child{
+        margin-bottom: 10%;
+    }
+    
     
 }
 
